@@ -1,82 +1,61 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Rubik:400,500);
-
 body {
-	margin: 0;
-	background-color: #CCC;
-	font-family: 'Rubik', sans-serif;
-}
+  background-color: #ccc;
+  font-family: "Rubik", sans-serif;
+  margin: 0; }
 
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif; }
 
-h1, h2 {
-	font-family: 'Montserrat', sans-serif;
-}
-
-
-.container {
-	max-width: 700px;
-	margin: 0 auto;
-	background-color: #fff;
-	padding: 30px;
-}
+main.container {
+  background-color: white;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px; }
 
 header {
-	padding: 30px;
-	background-image: url(http://assets.teamrock.com/image/3ea54ffa-28f6-4bfc-8d3e-c5018a25d120?w=800.jpeg);
-	background-position: left center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin: 0 0 60px;
-}
+  background-image: url(http://assets.teamrock.com/image/3ea54ffa-28f6-4bfc-8d3e-c5018a25d120?w=800.jpeg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 0 60px;
+  padding: 30px; }
 
-header p, header h1 {
-	text-align: center;
-	color: white;
-	text-shadow: 2px 2px 8px #000;
-}
-
-header p {
-	font-size: 26px;
-}
+.shadow, header h1, header p {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 8px #000; }
 
 header h1 {
-	font-weight: bold;
-	text-transform: uppercase;
-	font-size: 48px;
-	text-shadow: 2px 2px 8px #ff0000;
-}
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #ff0000; }
+header p {
+  font-size: 26px; }
 
 section {
-	padding: 0 20%;
-}
-
-section h2 {
-	font-size: 28px;
-	color: #e74c3c;
-	margin: 40px 0 0;
-}
-
-section.chorus h2 {
-	color: red;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-}
+  padding: 0 20%; }
+  section h2 {
+    color: #e74c3c;
+    font-size: 28px;
+    margin: 40px 0 0; }
+  section .chorus h2 {
+    color: red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
 
 footer {
-	margin: 60px 0 0;
-	padding: 30px;
-	background-color: grey;
-}
-
-footer p {
-	text-align: center;
-	color: white;
-}
-
-footer a {
-	text-decoration: none;
-	font-weight: 500;
-	color: white;
-}
-
+  background-color: grey;
+  margin: 60px 0 0;
+  padding: 30px; }
+  footer p {
+    color: white;
+    text-align: center; }
+  footer a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none; }
